@@ -1,0 +1,31 @@
+
+Setup App : 
+1. Download repository code from "https://github.com/MangeshMahajan93/img-upload-display-functionality"
+2. install npm and other requires packahes with the thelp of commannd : "npm install"
+3. Start server and app with command : "nodemon .\bin\www"
+4. On Browser hit URL : "http://localhost:3000/imageProcess".
+
+
+Functionality and Elaborations :
+1. Users can select an image, preview it, apply filters, and upload the image.
+2. Upon image selection, validation has been implemented to accept only files in image format.
+3. For filtering purposes, the 'jimp' npm package (https://www.npmjs.com/package/jimp) has been utilized.
+4. The following tech stack has been employed: Node.js, Express.js, MongoDB with Mongoose, HTML, CSS, and Bootstrap. 
+5. The application skeleton was created using the express generator.
+
+Future Enhancements :
+
+Expanded Image Manipulation: 
+Enable users to perform various operations on images leveraging the capabilities of the 'jimp' package. 
+These operations may include:
+    Cropping
+    Composing multiple images
+    Flipping and rotating
+    Adjusting colors
+    Manipulating alpha channels
+    Applying blurs
+    Adding effects
+    Cloning images for further modifications
+    These enhancements will empower users with more comprehensive image editing capabilities, making the application more versatile and valuable.
+
+Please review and provide any feedback as necessary.

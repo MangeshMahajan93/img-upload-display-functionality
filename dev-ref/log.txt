@@ -1,0 +1,34 @@
+/*
+imageDB> show dbs;
+
+admin     40.00 KiB
+config   108.00 KiB
+imageDB   72.00 KiB
+local     72.00 KiB
+
+imageDB> use imageDB;
+already on db imageDB
+
+imageDB> show tables;
+images
+
+imageDB> db.images.remove({});
+DeprecationWarning: Collection.remove() is deprecated. Use deleteOne, deleteMany, findOneAndDelete, or bulkWrite.
+{ acknowledged: true, deletedCount: 1 }
+imageDB> db.images.find().pretty();
+
+imageDB>
+
+*/
+
+
+
+
+/*
+
+PS D:\Mangesh\img-upload-display-functionality> nodemon .\bin\www
+
+http://localhost:3000/imageProcess
+
+
+*/

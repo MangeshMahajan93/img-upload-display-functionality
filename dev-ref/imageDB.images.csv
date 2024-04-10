@@ -1,0 +1,4 @@
+_id,filename,path,date,filter,size,__v
+661679caabfe9fd70b36713d,dummy-image.jpg,images/1712749002483.jpg,2024-04-10T11:36:42.000Z,grayscale,24.1,0
+66167a93abfe9fd70b367149,dummy-image.jpg,images/1712749203349.jpg,2024-04-10T11:40:03.000Z,sepia,24.1,0
+66167a9fabfe9fd70b367151,dummy-image.jpg,images/1712749215585.jpg,2024-04-10T11:40:15.000Z,,24.1,0
